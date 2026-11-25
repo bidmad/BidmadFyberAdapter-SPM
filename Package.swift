@@ -16,7 +16,7 @@ let package = Package(
     .library(name: "BidmadFyberAdapter", targets: ["BidmadFyberAdapterTarget"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/bidmad/BidmadSDK-SPM.git", .upToNextMinor(from: "7.2.0-dev.7")),
+    .package(url: "https://github.com/bidmad/BidmadSDK-SPM.git", .upToNextMinor(from: "7.2.0")),
     .package(url: "https://github.com/inner-active/DTExchangeSDK-iOS-SPM.git", exact: "8.5.1"),
   ],
   targets: [
@@ -30,8 +30,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "BidmadFyberAdapter",
-      url: "https://github.com/bidmad/BidmadFyberAdapter-SPM/releases/download/7.2.0-dev.7+8.5.1/BidmadFyberAdapter.xcframework.zip",
-      checksum: "c57c2f5096bdfbc6f2c40ff20e2ab740c2bd168f905d5b3d9f1c066e7c4b60ca"
+      url: "https://github.com/bidmad/BidmadFyberAdapter-SPM/releases/download/7.2.0+8.5.1/BidmadFyberAdapter.xcframework.zip",
+      checksum: "e748742b67908e5e6a7b0d1d6d193d4a634035795540a4b9a4a90a7b6c9211b0"
     ),
   ]
 )
